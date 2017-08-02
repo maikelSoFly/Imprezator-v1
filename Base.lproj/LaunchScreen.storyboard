@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PeE-eO-rg4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchScreen-->
+        <scene sceneID="k8V-8a-IhR">
+            <objects>
+                <viewController id="PeE-eO-rg4" userLabel="LaunchScreen" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eAn-RT-KYn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rhb-rU-EtL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y1A-kE-xJw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lsBlack" translatesAutoresizingMaskIntoConstraints="NO" id="0WT-h7-bfl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guest List Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuu-Qs-Ldc">
+                                <rect key="frame" x="48" y="327" width="279" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mikołaj Stępniewski 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm1-bF-QLf">
+                                <rect key="frame" x="90" y="624" width="194" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nuu-Qs-Ldc" firstAttribute="leading" secondItem="y1A-kE-xJw" secondAttribute="leadingMargin" constant="32" id="0k0-P0-mhq"/>
+                            <constraint firstAttribute="trailing" secondItem="0WT-h7-bfl" secondAttribute="trailing" id="3XI-HU-HZZ"/>
+                            <constraint firstItem="jm1-bF-QLf" firstAttribute="top" secondItem="nuu-Qs-Ldc" secondAttribute="bottom" constant="267" id="6r8-ym-baW"/>
+                            <constraint firstItem="jm1-bF-QLf" firstAttribute="top" secondItem="nuu-Qs-Ldc" secondAttribute="bottom" constant="267" id="6vt-3q-aYi"/>
+                            <constraint firstItem="Rhb-rU-EtL" firstAttribute="top" secondItem="0WT-h7-bfl" secondAttribute="bottom" id="Fxb-Q5-W8y"/>
+                            <constraint firstItem="jm1-bF-QLf" firstAttribute="leading" secondItem="y1A-kE-xJw" secondAttribute="leadingMargin" constant="74" id="K3D-jM-NB3"/>
+                            <constraint firstItem="0WT-h7-bfl" firstAttribute="leading" secondItem="y1A-kE-xJw" secondAttribute="leading" id="MXF-Y0-Rjn"/>
+                            <constraint firstItem="Rhb-rU-EtL" firstAttribute="top" secondItem="jm1-bF-QLf" secondAttribute="bottom" constant="27" id="Rfv-e8-C1g"/>
+                            <constraint firstItem="nuu-Qs-Ldc" firstAttribute="top" secondItem="eAn-RT-KYn" secondAttribute="bottom" constant="307" id="UEB-aO-b3B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jm1-bF-QLf" secondAttribute="trailing" constant="75" id="sq9-sT-5mK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nuu-Qs-Ldc" secondAttribute="trailing" constant="32" id="tR9-nk-TLQ"/>
+                            <constraint firstItem="0WT-h7-bfl" firstAttribute="top" secondItem="y1A-kE-xJw" secondAttribute="top" id="zRt-Q5-p1o"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRO-2Q-iD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-252" y="240.62968515742131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lsBlack" width="640" height="1136"/>
+    </resources>
+</document>
